@@ -5,8 +5,8 @@ theme = 'PaperMod'
 
 [params]
   [params.homeInfoParams]
-    Title = "Hello, I'm nohv"
-    Content = "Working as a software engineer at Naver Cloud Plaform"
+    Title = "Hello, I'm Hyeonggeun Oh"
+    Content = "Study Hard"
   
   [[params.socialIcons]]
     name = "github"
