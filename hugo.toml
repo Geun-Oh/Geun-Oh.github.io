@@ -1,4 +1,4 @@
-baseURL = 'https://Geun-Oh.github.io/'
+baseURL = 'https://geun-oh.github.io/'
 languageCode = 'en-us'
 title = 'New site for nohv.site'
 theme = 'PaperMod'
