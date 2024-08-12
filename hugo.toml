@@ -1,0 +1,27 @@
+baseURL = 'https://Geun-Oh.github.io/'
+languageCode = 'en-us'
+title = 'New site for nohv.site'
+theme = 'PaperMod'
+
+[params]
+  [params.homeInfoParams]
+    Title = "Hello, I'm nohv"
+    Content = "Working as a software engineer at Naver Cloud Plaform"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Geun-Oh"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/hyeonggeun-oh-760a5b240/"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
