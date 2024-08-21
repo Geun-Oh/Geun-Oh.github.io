@@ -2,6 +2,12 @@ baseURL = 'https://geun-oh.github.io/'
 languageCode = 'en-us'
 title = 'New site for nohv.site'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [params]
   [params.homeInfoParams]
