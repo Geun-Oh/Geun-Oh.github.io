@@ -20,6 +20,7 @@ enableRobotsTXT = true
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/hyeonggeun-oh-760a5b240/"
+  env = "production"
 
 [[menu.main]]
   identifier = "home"

@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on New site for nohv.site</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on New site for nohv.site</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 17:44:48 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 11:50:59 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New</title>
-      <link>http://localhost:1313/posts/new/</link>
-      <pubDate>Mon, 12 Aug 2024 17:44:48 +0900</pubDate>
-      <guid>http://localhost:1313/posts/new/</guid>
-      <description>Introduction It&amp;rsquo;s my new site for nohv.site domain.</description>
+      <title>Dont Use Next Error in Server Component</title>
+      <link>http://localhost:1313/posts/dont-use-next-error-in-server-component/</link>
+      <pubDate>Sun, 25 Aug 2024 11:50:59 +0900</pubDate>
+      <guid>http://localhost:1313/posts/dont-use-next-error-in-server-component/</guid>
+      <description>240825TIL&#xA;아&amp;hellip;진짜 오바야&#xA;next/error 는 Error Boundary 마냥 클래스 컴포넌트 기반이어서, SSR환경에 렌더링 되면 안된다. 근데 이제,,,직접적으로 사용한 것은 아니지만 import tree를 따라가다 나온 @/lib/data.ts와 같은 데이터 fetching하는 함수를 모아둔 파일에서 간접적으로 불러오고 있었어서 Class extends value undefined is not a constructor or null 가 발생하고 있었다..&#xA;next/error는 Class Component이다. Class Component가 아무렇게나 렌더링되지 않도록 무분별한 import에 주의하자. </description>
+    </item>
+    <item>
+      <title>240823</title>
+      <link>http://localhost:1313/posts/240823/</link>
+      <pubDate>Fri, 23 Aug 2024 10:27:41 +0900</pubDate>
+      <guid>http://localhost:1313/posts/240823/</guid>
+      <description>Terraform Code Gen 관련 사항 정리 목표는 다음과 같다.&#xA;provider-code-spec.json 파일 정의를 통해 실제 terraform provider code 생성이 가능하도록 workflow 구축.&#xA;기존의 example.json을 살펴보자.&#xA;Data Source Gen 지금 나는 Object Storage 관련한 Data source 작업들을 진행하고 있으므로, 해당 작업을 예시로 진행한다. 기존 소스를 terraform-plugin-codegen-framework 를 활용해서 생성한 뒤, 해당 파일에서 원하는 Attr 만 추출하여 미리 작성해둔 go template에 주입해준다. 외부에서 이를 어떻게 사용할지 고민 중인데, 자동화를 위해서는 Actions에 태우는 것이 가장 깔끔하지 않을까 생각 중.</description>
     </item>
   </channel>
 </rss>
