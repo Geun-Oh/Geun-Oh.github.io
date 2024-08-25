@@ -1,6 +1,6 @@
-baseURL = 'https://geun-oh.github.io/'
+baseURL = 'https://geunoh.github.io/'
 languageCode = 'en-us'
-title = 'New site for nohv.site'
+title = 'Nohv'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
@@ -11,8 +11,7 @@ enableRobotsTXT = true
 
 [params]
   [params.homeInfoParams]
-    Title = "Hello, I'm Hyeonggeun Oh"
-    Content = "Study Hard"
+    Title = "Welcome"
   
   [[params.socialIcons]]
     name = "github"
