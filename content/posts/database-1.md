@@ -1,7 +1,7 @@
 +++
 title = 'Database 1'
 date = 2024-08-30T16:53:28+09:00
-draft = true
+draft = false
 +++
 
 > 데이터베이스 수강하기 전에 공부해두기
