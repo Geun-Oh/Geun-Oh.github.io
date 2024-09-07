@@ -28,16 +28,16 @@ enableRobotsTXT = true
   weight = 10
 [[menu.main]]
   identifier = "posts"
-  name = "posts"
+  name = "Posts"
   url = "/posts/"
   weight = 20
 [[menu.main]]
   identifier = "database"
-  name = "database"
+  name = "Database"
   url = "/database/"
   weight = 20
 [[menu.main]]
   identifier = "network"
-  name = "network"
+  name = "Network"
   url = "/network/"
   weight = 20
