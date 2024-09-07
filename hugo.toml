@@ -31,3 +31,13 @@ enableRobotsTXT = true
   name = "Blog"
   url = "/posts/"
   weight = 20
+[[menu.main]]
+  identifier = "database"
+  name = "Blog"
+  url = "/database/"
+  weight = 20
+[[menu.main]]
+  identifier = "network"
+  name = "Blog"
+  url = "/network/"
+  weight = 20
