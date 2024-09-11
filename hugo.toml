@@ -41,3 +41,8 @@ enableRobotsTXT = true
   name = "Network"
   url = "/network/"
   weight = 20
+[[menu.main]]
+  identifier = "os"
+  name = "OS"
+  url = "/os/"
+  weight = 20
