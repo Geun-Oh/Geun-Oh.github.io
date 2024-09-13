@@ -25,9 +25,9 @@ draft = false
 
 표준 포트 번호를 지정하는 기구는 IANA다. 포트 번호들은 몇 개의 특별한 범위들로 구분된다.
 
-> 0~1023 => well-known port
-> 1024~49151 => registered port
-> 49152~65535 => dynamic/private port
+> 0 - 1023 => well-known port
+> 1024 - 49151 => registered port
+> 49152 - 65535 => dynamic/private port
 
 기본적인 well-known port의 경우 이곳에서 서비스를 제공하려면 관리자 혹은 root 권한을 가진 채 접근해야한다.
 
