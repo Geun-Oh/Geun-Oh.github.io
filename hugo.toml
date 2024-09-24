@@ -46,3 +46,8 @@ enableRobotsTXT = true
   name = "OS"
   url = "/os/"
   weight = 20
+[[menu.main]]
+  identifier = "cs"
+  name = "CS"
+  url = "/cs/"
+  weight = 20
