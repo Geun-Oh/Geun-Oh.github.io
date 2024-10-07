@@ -4,7 +4,7 @@ date = 2024-10-08T01:27:48+09:00
 draft = false
 +++
 
-## SQL Optimize
+## SQL Optimization
 
 Before executing SQL, subdivide optimization process is as follows.
 
