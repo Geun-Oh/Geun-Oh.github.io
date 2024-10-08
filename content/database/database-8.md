@@ -111,7 +111,7 @@ use pest::Parser;
 struct SQLParser;
 ```
 
-Than we can use our grammar that defined in `sql.pest` in our code like below.
+Then we can use our grammar that defined in `sql.pest` in our code like below.
 
 ```rust
 ...
