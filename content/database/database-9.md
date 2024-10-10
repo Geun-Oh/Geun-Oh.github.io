@@ -56,6 +56,3 @@ Undo log page writes down undo log entries.
 
 For implementing Transaction Isolation, Undo log stores the original data for each transaction.
 Specially, It is used for implementing REPEATABLE READ at REPEATABLE READ isolation level.
-
-Undo Log 는 Transaction Isolation 을 구현하기 위해서 각 Transaction 별로 원본 데이터를 저장하게 됩니다.
-특히 REPEATABLE READ Isolation Level 에서 REPEATABLE READ 를 구현하기 위해서 사용됩니다.
