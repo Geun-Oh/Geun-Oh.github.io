@@ -8,12 +8,13 @@ draft = false
 
 > NOTE: 개념에 대해 설명하지 않고, 간단한 구현을 진행하는 글입니다.
 > mTLS와 CFSSL에 대해서는 아래 글을 참고해주세요.
->
-> mTLS: [rfc8705](https://datatracker.ietf.org/doc/html/rfc8705) <br />
-> cfssl: [cfssl](https://github.com/cloudflare/cfssl)
->
-> mTLS의 경우는 요 영상을 통해서도 어렵지 않게 접할 수 있다 :)
-> [토스ㅣSLASH 23 - 고객 불안을 0으로 만드는 토스의 Istio Zero Trust](https://www.youtube.com/watch?v=4sJd6PIkP_s&t=349s)
+
+mTLS: [rfc8705](https://datatracker.ietf.org/doc/html/rfc8705) <br />
+cfssl: [cfssl](https://github.com/cloudflare/cfssl)
+
+mTLS의 경우는 요 영상을 통해서도 어렵지 않게 접할 수 있다 :)
+
+[토스ㅣSLASH 23 - 고객 불안을 0으로 만드는 토스의 Istio Zero Trust](https://www.youtube.com/watch?v=4sJd6PIkP_s&t=349s)
 
 다만 위 영상에서 소개되는 istio의 경우, mTLS를 위한 다양한 기능을 제공하기에 어렵지 않게 프로덕션 환경에서 mTLS를 적용할 수 있다.
 
