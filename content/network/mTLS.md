@@ -24,7 +24,6 @@ mTLS의 경우는 요 영상을 통해서도 어렵지 않게 접할 수 있다 
 ## Implementation
 
 기본적인 설정은 다음과 같다.
-을
 
 ```txt
 language: Go
