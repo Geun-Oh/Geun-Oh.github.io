@@ -30,24 +30,30 @@ enableRobotsTXT = true
   identifier = "posts"
   name = "Posts"
   url = "/posts/"
-  weight = 20
+  weight = 10
 [[menu.main]]
   identifier = "database"
   name = "Database"
   url = "/database/"
-  weight = 20
+  weight = 10
 [[menu.main]]
   identifier = "network"
   name = "Network"
   url = "/network/"
-  weight = 20
+  weight = 10
 [[menu.main]]
   identifier = "os"
   name = "OS"
   url = "/os/"
-  weight = 20
+  weight = 10
 [[menu.main]]
   identifier = "cs"
   name = "CS"
   url = "/cs/"
-  weight = 20
+  weight = 10
+[[menu.main]]
+  identifier = "devops"
+  name = "DevOps"
+  url = "/devops/"
+  weight = 10
+
