@@ -14,7 +14,7 @@ draft = false
 6. spec을 정확히 입력해줄 필요가 있음.
 7. CGO_ENABLED 옵션을 주면서 크로스 컴파일하는 경우(맥에서 리눅스용 빌드), 에러가 뜸.
 
-![cross-compile-unabled](/static/241030-1.png)
+![cross-compile-unabled](./241030-1.png)
 
 8. 같은 타입이라고 할지라도 pointer를 이용해서 주소값을 가져오는 경우에는 인터페이스가 같아도 소용없다. 직접 flatten하게 타입을 명시해주어야한다.
    1. panic: interface conversion: plugin.Symbol is *util.Converter, not *util.Converter (types from different scopes)
@@ -22,9 +22,9 @@ draft = false
       1. Plugin 내부적으로 리터럴 타입을 확인하는 것이 외에 주소값도 확인하는 듯 하다..?
       2. 정확히 알아보자.
 
-![interface-example](/static/241030-2.png)
+![interface-example](./241030-2.png)
 
-![interface-example-2](/static/241030-3.png)
+![interface-example-2](./241030-3.png)
 
 ## 결론
 
