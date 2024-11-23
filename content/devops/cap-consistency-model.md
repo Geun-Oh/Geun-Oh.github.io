@@ -1,5 +1,5 @@
 +++
-title = 'Consistency Model 2'
+title = 'CAP & Consistency Model'
 date = 2024-11-23T22:15:57+09:00
 draft = false
 +++
