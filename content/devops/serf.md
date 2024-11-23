@@ -1,7 +1,7 @@
 +++
 title = 'Serf'
 date = 2024-10-23T00:34:55+09:00
-draft = true
+draft = false
 +++
 
 ## Serf
@@ -10,3 +10,18 @@ draft = true
 
 서프의 큰 특징 중 하나는 중앙 집중식 레지스트리 아키텍쳐를 띄지 않는다는 것이다.
 서프를 이용해 서비스되고 있는 Consul의 경우는 중앙 집중식 아키텍쳐를 띄고 있는데, Serf는 그렇지 않음에 유의해서 보면 좋다.
+
+> Serf는 서비스 디스버리에 포함되는가?
+>
+> Serf가 Consul 등 서비스 디스커버리의 핵심적인 기능들을 포함하는 것은 맞지만, 실제로 서비스 디스커버리 포함된다고 말하기는 어렵다.
+> 실제 분류를 따져보면, **노드 디스커버리 및 오케스트레이션 서비스** 로 분류하는 것이 조금 더 정확하다.
+>
+> 이는 아래에서 더 설명하겠지만, Serf가 노드 수준에서 동작한다는 점과 더불어 서비스 등록 및 해제, 쿼리 인터페이스 등을 제공하지 않는다는 점에서 그렇게 여겨진다.
+
+실제 Serf와 Consul(HashiCorp 사의 Serf 기반 서비스 디스커버리 제품)과의 특징을 비교하면 다음과 같다.
+
+|--|Serf|Consul|
+|Discovery Level|노드 수준|노드 및 서비스 수준|
+|Health Check|기본적인 노드 생존 확인|서비스 및 호스트 수준의 확인|
+|Key-Value Store|X|O|
+|Data Consistency|Eventually Consistent|Strongly Consistent|
