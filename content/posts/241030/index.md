@@ -1,7 +1,7 @@
 +++
 title = '241030'
 date = 2024-10-31T17:30:40+09:00
-draft = false
+draft = true
 +++
 
 ## Go plugin 사용하면서 에러 사항 정리

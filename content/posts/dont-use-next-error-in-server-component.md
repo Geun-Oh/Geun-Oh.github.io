@@ -1,7 +1,7 @@
 +++
 title = 'Dont Use Next Error in Server Component'
 date = 2024-08-25T11:50:59+09:00
-draft = false
+draft = true
 +++
 
 _240825TIL_

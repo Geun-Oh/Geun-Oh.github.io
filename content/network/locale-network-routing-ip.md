@@ -1,5 +1,5 @@
 +++
-title = '241122'
+title = 'local-network-routing-ip'
 date = 2024-11-23T22:37:12+09:00
 draft = false
 +++
